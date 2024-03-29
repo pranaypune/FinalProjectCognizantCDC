@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "MasterSuite">
+	<listeners>
+		<listener class-name = "utilities.ExtentReportManager"/>
+	</listeners>
+
+	<test name = "Test">
+		<parameter name = "OS" value = "Windows"/>
+		<parameter name = "Browser" value = "Chrome"/>
+		
+		<groups>
+			<run>
+				<!-- <include name="Smoke Test"></include>
+				<include name="Sanity Test"></include>
+				<include name="Regression Test"></include> -->
+				<include name="Master"></include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name = "testCases.TS_01_NavigateToBookshelvesPage"/>
+			<class name = "testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+			<class name = "testCases.TS_03_SettingTheRequiredFilters"/>
+			<class name = "testCases.TS_04_DisplayBookShelvesDetails"/>
+			<class name = "testCases.TS_05_GetListOfSubMenuItems"/>
+			<class name = "testCases.TS_06_GiftCardCustomization"/>
+			<class name = "testCases.TS_07_RecipientAndSenderDetails"/>
+			<!--<class name="testCases.TS_07_ResipientAndSenderDetailsDDT"/>-->
+		</classes>
+	</test>
+</suite>

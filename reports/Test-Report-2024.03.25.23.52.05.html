@@ -1,0 +1,1669 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Urban Ladder Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Bookshelves and Gift Cards Functionality Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 25, 2024 11:52:05 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">RegressionTest</a><a class="dropdown-item" href="#">SmokeTest</a><a class="dropdown-item" href="#">Master</a><a class="dropdown-item" href="#">SanityTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_01_NavigateToBookshelvesPage</p>
+            <p class="text-sm">
+              <span>11:52:14 PM</span> / <span>00:00:00:402</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_01_NavigateToBookshelvesPage</h5>
+<span class='badge badge-success'>03.25.2024 11:52:14 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:14 PM</span>
+<span class='badge badge-default'>00:00:00:402</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_001_isBookShelvesButtonPresent_20240325115214.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_001_isBookShelvesButtonPresent_20240325115214.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:14 PM</td>
+        <td>
+          tc_001_isBookShelvesButtonPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_01_NavigateToBookshelvesPage</p>
+            <p class="text-sm">
+              <span>11:52:16 PM</span> / <span>00:00:00:233</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_01_NavigateToBookshelvesPage</h5>
+<span class='badge badge-success'>03.25.2024 11:52:16 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:16 PM</span>
+<span class='badge badge-default'>00:00:00:233</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_002_verifyBookshelvesPage_20240325115216.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_002_verifyBookshelvesPage_20240325115216.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:16 PM</td>
+        <td>
+          tc_002_verifyBookshelvesPage got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="SanityTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:21 PM</span> / <span>00:00:00:419</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:21 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-default'>00:00:00:419</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SanityTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_003_handlePopup_20240325115221.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_003_handlePopup_20240325115221.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:21 PM</td>
+        <td>
+          tc_003_handlePopup got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="SanityTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:22 PM</span> / <span>00:00:00:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-default'>00:00:00:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SanityTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_004_isPriceFilterPresent_20240325115222.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_004_isPriceFilterPresent_20240325115222.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          tc_004_isPriceFilterPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="SanityTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:22 PM</span> / <span>00:00:00:298</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-default'>00:00:00:298</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SanityTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_005_isStorageTypeFilterPresent_20240325115222.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_005_isStorageTypeFilterPresent_20240325115222.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          tc_005_isStorageTypeFilterPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:22 PM</span> / <span>00:00:00:213</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-default'>00:00:00:213</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_006_isBrandFilterPresent_20240325115222.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_006_isBrandFilterPresent_20240325115222.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          tc_006_isBrandFilterPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:22 PM</span> / <span>00:00:00:188</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:22 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:23 PM</span>
+<span class='badge badge-default'>00:00:00:188</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_007_isOutOfStockCheckboxPresent_20240325115222.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_007_isOutOfStockCheckboxPresent_20240325115222.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          tc_007_isOutOfStockCheckboxPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:23 PM</span> / <span>00:00:00:197</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:23 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:23 PM</span>
+<span class='badge badge-default'>00:00:00:197</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_008_isPriceFilterHoverable_20240325115223.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_008_isPriceFilterHoverable_20240325115223.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:23 PM</td>
+        <td>
+          tc_008_isPriceFilterHoverable got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_02_VisibilityOfBookshelvesFilters</p>
+            <p class="text-sm">
+              <span>11:52:23 PM</span> / <span>00:00:00:240</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_02_VisibilityOfBookshelvesFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:23 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:24 PM</span>
+<span class='badge badge-default'>00:00:00:240</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_009_isStorageTypeFilterHoverable_20240325115223.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_009_isStorageTypeFilterHoverable_20240325115223.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:23 PM</td>
+        <td>
+          tc_009_isStorageTypeFilterHoverable got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_03_SettingTheRequiredFilters</p>
+            <p class="text-sm">
+              <span>11:52:24 PM</span> / <span>00:00:00:180</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_03_SettingTheRequiredFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:24 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:24 PM</span>
+<span class='badge badge-default'>00:00:00:180</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_010_setPriceSlider_20240325115224.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_010_setPriceSlider_20240325115224.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:24 PM</td>
+        <td>
+          tc_010_setPriceSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_03_SettingTheRequiredFilters</p>
+            <p class="text-sm">
+              <span>11:52:25 PM</span> / <span>00:00:00:222</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_03_SettingTheRequiredFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:25 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:25 PM</span>
+<span class='badge badge-default'>00:00:00:222</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_011_setStorageType_20240325115225.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_011_setStorageType_20240325115225.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:25 PM</td>
+        <td>
+          tc_011_setStorageType got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_03_SettingTheRequiredFilters</p>
+            <p class="text-sm">
+              <span>11:52:25 PM</span> / <span>00:00:00:210</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_03_SettingTheRequiredFilters</h5>
+<span class='badge badge-success'>03.25.2024 11:52:25 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:25 PM</span>
+<span class='badge badge-default'>00:00:00:210</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_012_checkOutOfStock_20240325115225.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_012_checkOutOfStock_20240325115225.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:25 PM</td>
+        <td>
+          tc_012_checkOutOfStock got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_04_DisplayBookShelvesDetails</p>
+            <p class="text-sm">
+              <span>11:52:30 PM</span> / <span>00:00:00:271</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_04_DisplayBookShelvesDetails</h5>
+<span class='badge badge-success'>03.25.2024 11:52:30 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:30 PM</span>
+<span class='badge badge-default'>00:00:00:271</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_013_displayBookshelvesDetails_20240325115230.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_013_displayBookshelvesDetails_20240325115230.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:30 PM</td>
+        <td>
+          tc_013_displayBookshelvesDetails got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_05_GetListOfSubMenuItems</p>
+            <p class="text-sm">
+              <span>11:52:36 PM</span> / <span>00:00:00:153</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_05_GetListOfSubMenuItems</h5>
+<span class='badge badge-success'>03.25.2024 11:52:36 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:36 PM</span>
+<span class='badge badge-default'>00:00:00:153</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_014_isHomeDecorMenuPresent_20240325115236.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_014_isHomeDecorMenuPresent_20240325115236.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:36 PM</td>
+        <td>
+          tc_014_isHomeDecorMenuPresent got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="SanityTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_05_GetListOfSubMenuItems</p>
+            <p class="text-sm">
+              <span>11:52:36 PM</span> / <span>00:00:00:148</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_05_GetListOfSubMenuItems</h5>
+<span class='badge badge-success'>03.25.2024 11:52:36 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:36 PM</span>
+<span class='badge badge-default'>00:00:00:148</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SanityTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_015_getHomeDecorSubMenuItems_20240325115236.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_015_getHomeDecorSubMenuItems_20240325115236.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:36 PM</td>
+        <td>
+          tc_015_getHomeDecorSubMenuItems got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_06_GiftCardCustomization</p>
+            <p class="text-sm">
+              <span>11:52:37 PM</span> / <span>00:00:00:174</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_06_GiftCardCustomization</h5>
+<span class='badge badge-success'>03.25.2024 11:52:37 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:37 PM</span>
+<span class='badge badge-default'>00:00:00:174</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_016_validateGiftCardButton_20240325115237.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_016_validateGiftCardButton_20240325115237.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:37 PM</td>
+        <td>
+          tc_016_validateGiftCardButton got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="SmokeTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_06_GiftCardCustomization</p>
+            <p class="text-sm">
+              <span>11:52:37 PM</span> / <span>00:00:00:357</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TS_06_GiftCardCustomization</h5>
+<span class='badge badge-success'>03.25.2024 11:52:37 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:52:37 PM</span>
+<span class='badge badge-default'>00:00:00:357</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_017_navigateToGiftCardsPage_20240325115237.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_017_navigateToGiftCardsPage_20240325115237.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:37 PM</td>
+        <td>
+          tc_017_navigateToGiftCardsPage got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_06_GiftCardCustomization</p>
+            <p class="text-sm">
+              <span>11:54:37 PM</span> / <span>00:00:00:148</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TS_06_GiftCardCustomization</h5>
+<span class='badge badge-success'>03.25.2024 11:54:37 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:54:37 PM</span>
+<span class='badge badge-default'>00:00:00:148</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_018_verifyBirthdayCardIsDisplayed_20240325115437.png' src="C:\Users\2318211\OneDrive - Cognizant\Documents\Hackathon_Display_BookshelvesFinal\Hackathon_Display_Bookshelves\screenshots\tc_018_verifyBirthdayCardIsDisplayed_20240325115437.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:54:37 PM</td>
+        <td>
+          tc_018_verifyBirthdayCardIsDisplayed got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:37 PM</td>
+        <td>
+          no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='_2sedU']/li[3]/img"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a17010273602d4c1489f1eaedc79fe, findElement {value=//ul[@class='_2sedU']/li[3]/img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52674/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a17010273602d4c1489f1eaedc79fe
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="19"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_06_GiftCardCustomization</p>
+            <p class="text-sm">
+              <span>11:55:04 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TS_06_GiftCardCustomization</h5>
+<span class='badge badge-success'>03.25.2024 11:55:04 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:55:04 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:55:04 PM</td>
+        <td>
+          tc_019_giftCardCustomization got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:04 PM</td>
+        <td>
+          Unable to find element with locator By.xpath: //ul[@class='_2sedU']/li[3]/img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: RemoteWebDriver
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="20"
+          author=""
+          tag="RegressionTest Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TS_06_GiftCardCustomization</p>
+            <p class="text-sm">
+              <span>11:55:04 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TS_06_GiftCardCustomization</h5>
+<span class='badge badge-success'>03.25.2024 11:55:04 PM</span>
+<span class='badge badge-danger'>03.25.2024 11:55:04 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTest</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:55:04 PM</td>
+        <td>
+          tc_019_giftCardCustomization got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:04 PM</td>
+        <td>
+          no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a17010273602d4c1489f1eaedc79fe, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52674/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a17010273602d4c1489f1eaedc79fe
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">RegressionTest</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RegressionTest</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TS_04_DisplayBookShelvesDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">SmokeTest</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SmokeTest</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TS_01_NavigateToBookshelvesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TS_01_NavigateToBookshelvesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TS_05_GetListOfSubMenuItems</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>17</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">Master</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Master</h4>
+<span status="pass" class='badge log pass-bg'>17 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TS_01_NavigateToBookshelvesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TS_01_NavigateToBookshelvesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TS_03_SettingTheRequiredFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TS_04_DisplayBookShelvesDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TS_05_GetListOfSubMenuItems</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TS_05_GetListOfSubMenuItems</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testCases.TS_06_GiftCardCustomization</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">SanityTest</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SanityTest</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TS_02_VisibilityOfBookshelvesFilters</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TS_05_GetListOfSubMenuItems</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 25, 2024 11:52:05 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 25, 2024 11:55:09 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>17</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'>
+<b>17</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='15%'><b>3</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='73%'><b>17</b> events passed</small></div>
+<div>
+<small data-tooltip='13%'><b>3</b> events failed,
+<b data-tooltip='%'>3</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCases.TS_01_NavigateToBookshelvesPage":0.402,"testCases.TS_01_NavigateToBookshelvesPage":0.233,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.419,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.234,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.298,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.213,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.188,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.197,"testCases.TS_02_VisibilityOfBookshelvesFilters":0.24,"testCases.TS_03_SettingTheRequiredFilters":0.18,"testCases.TS_03_SettingTheRequiredFilters":0.222,"testCases.TS_03_SettingTheRequiredFilters":0.21,"testCases.TS_04_DisplayBookShelvesDetails":0.271,"testCases.TS_05_GetListOfSubMenuItems":0.153,"testCases.TS_05_GetListOfSubMenuItems":0.148,"testCases.TS_06_GiftCardCustomization":0.174,"testCases.TS_06_GiftCardCustomization":0.357,"testCases.TS_06_GiftCardCustomization":0.148,"testCases.TS_06_GiftCardCustomization":0,"testCases.TS_06_GiftCardCustomization":0
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>RegressionTest</td>
+<td>7</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>SmokeTest</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Master</td>
+<td>17</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>85%</td>
+</tr>
+<tr>
+<td>SanityTest</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Urban Ladder</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Bookshelves</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>2318211</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 17,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 17,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 3
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

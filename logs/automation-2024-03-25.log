@@ -1,0 +1,41 @@
+12:00:23.792 [TestNG-tests-1] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on excell sheet got failed 
+12:02:23.762 [TestNG-tests-2] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on console got failed 
+12:02:23.762 [TestNG-tests-2] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on excell sheet got failed 
+12:03:24.779 [TestNG-tests-2] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Starting of TS_05_GetListOfSubMenuItems ***
+12:03:25.172 [TestNG-tests-1] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Starting of TS_05_GetListOfSubMenuItems ***
+12:03:25.777 [TestNG-tests-1] INFO  testCases.TS_05_GetListOfSubMenuItems -  Home Decore menu and sub-menu loaded successfully 
+12:03:26.222 [TestNG-tests-1] INFO  testCases.TS_06_GiftCardCustomization - *** Starting of TS_06_GiftCardCustomization ***
+12:03:26.738 [TestNG-tests-1] INFO  testCases.TS_07_RecipientAndSenderDetails - *** Starting of TS_07_RecipientAndSenderDetails ***
+12:04:33.863 [TestNG-tests-1] INFO  testCases.TS_07_RecipientAndSenderDetails -  Setting Recipient details through random funcion got failed
+12:04:33.864 [TestNG-tests-2] INFO  testCases.TS_07_RecipientAndSenderDetails -  Home Decore menu and sub-menu loading failed 
+15:25:20.235 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - *** Starting of TS_01_NavigateToBookshelvesPage ***
+15:25:22.937 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - Bookshelve page loaded successfully
+15:25:22.937 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - *** Ending of TS_01_NavigateToBookshelvesPage ***
+15:25:23.134 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Starting of TS_02_VisibilityOfBookshelvesFilters ***
+15:25:28.451 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - Pop-up handled successfully
+15:25:31.120 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** All filtes in Bookshelve page is iteractable ***
+15:25:31.120 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Ending of TS_02_VisibilityOfBookshelvesFilters ***
+15:25:31.392 [main] INFO  testCases.TS_03_SettingTheRequiredFilters - *** Starting of TS_03_SettingTheRequiredFilters ***
+15:25:31.966 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Setting price filter successfully 
+15:25:32.417 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Setting storage type as open 
+15:25:32.652 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Exclude out of stock product 
+15:25:32.652 [main] INFO  testCases.TS_03_SettingTheRequiredFilters - *** Ending of TS_03_SettingTheRequiredFilters ***
+15:25:32.851 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails - *** Starting of TS_04_DisplayBookShelvesDetails ***
+15:25:39.199 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on console got failed 
+15:25:39.199 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on excell sheet got failed 
+15:25:39.510 [main] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Starting of TS_05_GetListOfSubMenuItems ***
+15:26:05.021 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Home Decore menu and sub-menu loading failed 
+15:26:05.357 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Printing Home decore items loading failed 
+15:26:05.497 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Starting of TS_06_GiftCardCustomization ***
+15:26:10.937 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card button clicked successfully 
+15:26:11.615 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card Customization starts 
+15:26:12.282 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Ending of TS_06_GiftCardCustomization ***
+15:26:12.558 [main] INFO  testCases.TS_07_RecipientAndSenderDetails - *** Starting of TS_07_RecipientAndSenderDetails ***
+15:26:12.814 [main] INFO  testCases.TS_07_RecipientAndSenderDetails -  Setting Recipient details through random funcion 
+15:26:15.053 [main] INFO  testCases.TS_07_RecipientAndSenderDetails -  Sending invalid Sender details through random funcion in different combination 
+15:26:16.973 [main] INFO  testCases.TS_07_RecipientAndSenderDetails -  All error message got captured 
+15:26:16.973 [main] INFO  testCases.TS_07_RecipientAndSenderDetails - *** Ending of TS_07_RecipientAndSenderDetails ***
+15:27:33.839 [TestNG-tests-2] INFO  testCases.TS_01_NavigateToBookshelvesPage - *** Starting of TS_01_NavigateToBookshelvesPage ***
+15:27:34.178 [TestNG-tests-1] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Starting of TS_02_VisibilityOfBookshelvesFilters ***
+15:27:34.461 [TestNG-tests-2] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Starting of TS_02_VisibilityOfBookshelvesFilters ***
+15:28:00.160 [TestNG-tests-2] INFO  testCases.TS_03_SettingTheRequiredFilters - *** Starting of TS_03_SettingTheRequiredFilters ***

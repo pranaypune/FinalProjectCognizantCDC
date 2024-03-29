@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="23" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T15:25:11 IST" name="MasterSuite" finished-at="2024-03-25T15:26:20 IST" duration-ms="69594">
+    <groups>
+      <group name="Sanity Test">
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_003_handlePopup" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_004_isPriceFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" name="tc_015_getHomeDecorSubMenuItems" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_005_isStorageTypeFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+      </group> <!-- Sanity Test -->
+      <group name="Master">
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" name="tc_001_isBookShelvesButtonPresent" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_003_handlePopup" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_010_setPriceSlider" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@4b8d604b]" name="tc_013_displayBookshelvesDetails" class="testCases.TS_04_DisplayBookShelvesDetails"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" name="tc_014_isHomeDecorMenuPresent" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_016_validateGiftCardButton" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_020_enterRecipientDetails()[pri:0, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_020_enterRecipientDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" name="tc_002_verifyBookshelvesPage" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_004_isPriceFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_011_setStorageType" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" name="tc_015_getHomeDecorSubMenuItems" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_017_navigateToGiftCardsPage" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_021_validateErrorMessageWithoutNameInSenderDetails()[pri:1, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_021_validateErrorMessageWithoutNameInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_005_isStorageTypeFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_012_checkOutOfStock" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_018_verifyBirthdayCardIsDisplayed" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_022_validateErrorMessageWithoutEmailInSenderDetails()[pri:2, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_022_validateErrorMessageWithoutEmailInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_006_isBrandFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_019_giftCardCustomization" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_023_validateErrorMessageWithInvalidEmailInSenderDetails()[pri:3, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_023_validateErrorMessageWithInvalidEmailInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_007_isOutOfStockCheckboxPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails()[pri:4, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_008_isPriceFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails()[pri:5, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_009_isStorageTypeFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_026_validateErrorMessageWithoutAddressInSenderDetails()[pri:6, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_026_validateErrorMessageWithoutAddressInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+      </group> <!-- Master -->
+      <group name="Regression Test">
+        <method signature="TS_03_SettingTheRequiredFilters.tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_010_setPriceSlider" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@4b8d604b]" name="tc_013_displayBookshelvesDetails" class="testCases.TS_04_DisplayBookShelvesDetails"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_020_enterRecipientDetails()[pri:0, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_020_enterRecipientDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_011_setStorageType" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_021_validateErrorMessageWithoutNameInSenderDetails()[pri:1, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_021_validateErrorMessageWithoutNameInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" name="tc_012_checkOutOfStock" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_018_verifyBirthdayCardIsDisplayed" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_022_validateErrorMessageWithoutEmailInSenderDetails()[pri:2, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_022_validateErrorMessageWithoutEmailInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_06_GiftCardCustomization.tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_019_giftCardCustomization" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_023_validateErrorMessageWithInvalidEmailInSenderDetails()[pri:3, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_023_validateErrorMessageWithInvalidEmailInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_007_isOutOfStockCheckboxPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails()[pri:4, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_008_isPriceFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails()[pri:5, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_009_isStorageTypeFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_07_RecipientAndSenderDetails.tc_026_validateErrorMessageWithoutAddressInSenderDetails()[pri:6, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" name="tc_026_validateErrorMessageWithoutAddressInSenderDetails" class="testCases.TS_07_RecipientAndSenderDetails"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" name="tc_001_isBookShelvesButtonPresent" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" name="tc_014_isHomeDecorMenuPresent" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_016_validateGiftCardButton" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" name="tc_002_verifyBookshelvesPage" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" name="tc_017_navigateToGiftCardsPage" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" name="tc_006_isBrandFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2024-03-25T15:25:11 IST" name="Test" finished-at="2024-03-25T15:26:20 IST" duration-ms="69594">
+      <class name="testCases.TS_07_RecipientAndSenderDetails">
+        <test-method signature="tc_020_enterRecipientDetails()[pri:0, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:12 IST" name="tc_020_enterRecipientDetails" finished-at="2024-03-25T15:26:12 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_020_enterRecipientDetails -->
+        <test-method signature="tc_021_validateErrorMessageWithoutNameInSenderDetails()[pri:1, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:13 IST" name="tc_021_validateErrorMessageWithoutNameInSenderDetails" finished-at="2024-03-25T15:26:13 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_validateErrorMessageWithoutNameInSenderDetails -->
+        <test-method signature="tc_022_validateErrorMessageWithoutEmailInSenderDetails()[pri:2, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:13 IST" name="tc_022_validateErrorMessageWithoutEmailInSenderDetails" finished-at="2024-03-25T15:26:14 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_022_validateErrorMessageWithoutEmailInSenderDetails -->
+        <test-method signature="tc_023_validateErrorMessageWithInvalidEmailInSenderDetails()[pri:3, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:14 IST" name="tc_023_validateErrorMessageWithInvalidEmailInSenderDetails" finished-at="2024-03-25T15:26:14 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_023_validateErrorMessageWithInvalidEmailInSenderDetails -->
+        <test-method signature="tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails()[pri:4, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:15 IST" name="tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails" finished-at="2024-03-25T15:26:15 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_024_validateErrorMessageWithoutMobileNumberInSenderDetails -->
+        <test-method signature="tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails()[pri:5, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:15 IST" name="tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails" finished-at="2024-03-25T15:26:16 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_025_validateErrorMessageWithInvalidMobileNumberInSenderDetails -->
+        <test-method signature="tc_026_validateErrorMessageWithoutAddressInSenderDetails()[pri:6, instance:testCases.TS_07_RecipientAndSenderDetails@2dfaea86]" started-at="2024-03-25T15:26:16 IST" name="tc_026_validateErrorMessageWithoutAddressInSenderDetails" finished-at="2024-03-25T15:26:16 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_026_validateErrorMessageWithoutAddressInSenderDetails -->
+      </class> <!-- testCases.TS_07_RecipientAndSenderDetails -->
+      <class name="testCases.TS_03_SettingTheRequiredFilters">
+        <test-method signature="tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" started-at="2024-03-25T15:25:31 IST" name="tc_010_setPriceSlider" finished-at="2024-03-25T15:25:31 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_010_setPriceSlider -->
+        <test-method signature="tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" started-at="2024-03-25T15:25:32 IST" name="tc_011_setStorageType" finished-at="2024-03-25T15:25:32 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_011_setStorageType -->
+        <test-method signature="tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@5fb759d6]" started-at="2024-03-25T15:25:32 IST" name="tc_012_checkOutOfStock" finished-at="2024-03-25T15:25:32 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_012_checkOutOfStock -->
+      </class> <!-- testCases.TS_03_SettingTheRequiredFilters -->
+      <class name="testCases.TS_05_GetListOfSubMenuItems">
+        <test-method signature="tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" started-at="2024-03-25T15:25:39 IST" name="tc_014_isHomeDecorMenuPresent" finished-at="2024-03-25T15:26:05 IST" duration-ms="25513" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@class = 'inline-list left']/li[5]//a[text() = 'Home Decor'] (tried for 25 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@class = 'inline-list left']/li[5]//a[text() = 'Home Decor'] (tried for 25 second(s) with 5000 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent(TS_05_GetListOfSubMenuItems.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_014_isHomeDecorMenuPresent -->
+        <test-method signature="tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@5e7cd6cc]" started-at="2024-03-25T15:26:05 IST" name="tc_015_getHomeDecorSubMenuItems" finished-at="2024-03-25T15:26:05 IST" duration-ms="159" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[.\dataTables\testResult.xlsx (The process cannot access the file because it is being used by another process)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: .\dataTables\testResult.xlsx (The process cannot access the file because it is being used by another process)
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems(TS_05_GetListOfSubMenuItems.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_015_getHomeDecorSubMenuItems -->
+      </class> <!-- testCases.TS_05_GetListOfSubMenuItems -->
+      <class name="testCases.TS_01_NavigateToBookshelvesPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" started-at="2024-03-25T15:25:11 IST" name="setup" finished-at="2024-03-25T15:25:19 IST" duration-ms="8027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" started-at="2024-03-25T15:25:19 IST" name="tc_001_isBookShelvesButtonPresent" finished-at="2024-03-25T15:25:20 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_isBookShelvesButtonPresent -->
+        <test-method signature="tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" started-at="2024-03-25T15:25:20 IST" name="tc_002_verifyBookshelvesPage" finished-at="2024-03-25T15:25:22 IST" depends-on-methods="testCases.TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_verifyBookshelvesPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@480d3575]" started-at="2024-03-25T15:26:17 IST" name="teardown" finished-at="2024-03-25T15:26:20 IST" duration-ms="3805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS_01_NavigateToBookshelvesPage -->
+      <class name="testCases.TS_06_GiftCardCustomization">
+        <test-method signature="tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" started-at="2024-03-25T15:26:05 IST" name="tc_016_validateGiftCardButton" finished-at="2024-03-25T15:26:05 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_016_validateGiftCardButton -->
+        <test-method signature="tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" started-at="2024-03-25T15:26:05 IST" name="tc_017_navigateToGiftCardsPage" finished-at="2024-03-25T15:26:10 IST" duration-ms="5218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_017_navigateToGiftCardsPage -->
+        <test-method signature="tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" started-at="2024-03-25T15:26:11 IST" name="tc_018_verifyBirthdayCardIsDisplayed" finished-at="2024-03-25T15:26:11 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_018_verifyBirthdayCardIsDisplayed -->
+        <test-method signature="tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@d554c5f]" started-at="2024-03-25T15:26:11 IST" name="tc_019_giftCardCustomization" finished-at="2024-03-25T15:26:12 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_019_giftCardCustomization -->
+      </class> <!-- testCases.TS_06_GiftCardCustomization -->
+      <class name="testCases.TS_04_DisplayBookShelvesDetails">
+        <test-method signature="tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@4b8d604b]" started-at="2024-03-25T15:25:32 IST" name="tc_013_displayBookshelvesDetails" finished-at="2024-03-25T15:25:39 IST" duration-ms="6348" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[.\dataTables\testResult.xlsx (The process cannot access the file because it is being used by another process)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: .\dataTables\testResult.xlsx (The process cannot access the file because it is being used by another process)
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails(TS_04_DisplayBookShelvesDetails.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_013_displayBookshelvesDetails -->
+      </class> <!-- testCases.TS_04_DisplayBookShelvesDetails -->
+      <class name="testCases.TS_02_VisibilityOfBookshelvesFilters">
+        <test-method signature="tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:23 IST" name="tc_003_handlePopup" finished-at="2024-03-25T15:25:28 IST" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_handlePopup -->
+        <test-method signature="tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:28 IST" name="tc_004_isPriceFilterPresent" finished-at="2024-03-25T15:25:29 IST" depends-on-methods="testCases.TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_isPriceFilterPresent -->
+        <test-method signature="tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:29 IST" name="tc_005_isStorageTypeFilterPresent" finished-at="2024-03-25T15:25:29 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005_isStorageTypeFilterPresent -->
+        <test-method signature="tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:29 IST" name="tc_006_isBrandFilterPresent" finished-at="2024-03-25T15:25:29 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_006_isBrandFilterPresent -->
+        <test-method signature="tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:30 IST" name="tc_007_isOutOfStockCheckboxPresent" finished-at="2024-03-25T15:25:30 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007_isOutOfStockCheckboxPresent -->
+        <test-method signature="tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:30 IST" name="tc_008_isPriceFilterHoverable" finished-at="2024-03-25T15:25:30 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_008_isPriceFilterHoverable -->
+        <test-method signature="tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@57bc27f5]" started-at="2024-03-25T15:25:30 IST" name="tc_009_isStorageTypeFilterHoverable" finished-at="2024-03-25T15:25:31 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_009_isStorageTypeFilterHoverable -->
+      </class> <!-- testCases.TS_02_VisibilityOfBookshelvesFilters -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

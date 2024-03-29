@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MasterSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="OS" value="Windows"/>
+    <parameter name="Browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TS_04_DisplayBookShelvesDetails">
+        <methods>
+          <include name="teardown"/>
+          <include name="tc_013_displayBookshelvesDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TS_04_DisplayBookShelvesDetails -->
+      <class name="testCases.TS_05_GetListOfSubMenuItems">
+        <methods>
+          <include name="teardown"/>
+          <include name="tc_015_getHomeDecorSubMenuItems"/>
+          <include name="tc_014_isHomeDecorMenuPresent"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TS_05_GetListOfSubMenuItems -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MasterSuite] -->

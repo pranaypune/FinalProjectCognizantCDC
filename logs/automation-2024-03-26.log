@@ -1,0 +1,44 @@
+12:51:40.439 [main] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Starting of TS_05_GetListOfSubMenuItems ***
+12:51:45.780 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Home Decore menu and sub-menu loaded successfully 
+12:51:46.074 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Printing Home decore items on console 
+12:51:46.074 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Printing Home decore items on excel sheets 
+12:51:47.269 [main] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Ending of TS_05_GetListOfSubMenuItems ***
+12:51:47.444 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Starting of TS_06_GiftCardCustomization ***
+12:52:05.623 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card button clicked successfully 
+12:52:06.223 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card Customization starts 
+12:52:06.889 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Ending of TS_06_GiftCardCustomization ***
+12:52:36.593 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - *** Starting of TS_01_NavigateToBookshelvesPage ***
+12:52:39.408 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - Bookshelve page loaded successfully
+12:52:39.408 [main] INFO  testCases.TS_01_NavigateToBookshelvesPage - *** Ending of TS_01_NavigateToBookshelvesPage ***
+12:52:39.610 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Starting of TS_02_VisibilityOfBookshelvesFilters ***
+12:52:44.741 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - Pop-up handled successfully
+12:52:46.546 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** All filtes in Bookshelve page is iteractable ***
+12:52:46.546 [main] INFO  testCases.TS_02_VisibilityOfBookshelvesFilters - *** Ending of TS_02_VisibilityOfBookshelvesFilters ***
+12:52:46.785 [main] INFO  testCases.TS_03_SettingTheRequiredFilters - *** Starting of TS_03_SettingTheRequiredFilters ***
+12:52:47.334 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Setting price filter successfully 
+12:52:47.707 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Setting storage type as open 
+12:52:48.142 [main] INFO  testCases.TS_03_SettingTheRequiredFilters -  Exclude out of stock product 
+12:52:48.144 [main] INFO  testCases.TS_03_SettingTheRequiredFilters - *** Ending of TS_03_SettingTheRequiredFilters ***
+12:52:48.509 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails - *** Starting of TS_04_DisplayBookShelvesDetails ***
+12:52:58.192 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on console 
+12:52:58.193 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails -  Printing bookshelves on excel sheet 
+12:52:58.530 [main] INFO  testCases.TS_04_DisplayBookShelvesDetails - *** Ending of TS_04_DisplayBookShelvesDetails ***
+12:52:58.857 [main] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Starting of TS_05_GetListOfSubMenuItems ***
+12:53:04.141 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Home Decore menu and sub-menu loaded successfully 
+12:53:04.468 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Printing Home decore items on console 
+12:53:04.468 [main] INFO  testCases.TS_05_GetListOfSubMenuItems -  Printing Home decore items on excel sheets 
+12:53:05.316 [main] INFO  testCases.TS_05_GetListOfSubMenuItems - *** Ending of TS_05_GetListOfSubMenuItems ***
+12:53:05.479 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Starting of TS_06_GiftCardCustomization ***
+12:53:17.964 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card button clicked successfully 
+12:53:18.573 [main] INFO  testCases.TS_06_GiftCardCustomization -  Gift card Customization starts 
+12:53:19.458 [main] INFO  testCases.TS_06_GiftCardCustomization - *** Ending of TS_06_GiftCardCustomization ***
+12:53:20.079 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT - *** Starting of TS_07_RecipientAndSenderDetails ***
+12:53:20.079 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  Setting Recipient details through Data Driven Approach 
+12:53:21.792 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  Setting Sender details through Data Driven Approach 
+12:53:22.921 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  All error message got captured 
+12:53:22.922 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT - *** Ending of TS_07_RecipientAndSenderDetails ***
+12:53:23.096 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  Setting Sender details through Data Driven Approach 
+12:53:24.055 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  All error message got captured 
+12:53:24.055 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT - *** Ending of TS_07_RecipientAndSenderDetails ***
+12:53:24.190 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  Setting Sender details through Data Driven Approach 
+12:53:25.245 [main] INFO  testCases.TS_07_ResipientAndSenderDetailsDDT -  All error message got captured 
