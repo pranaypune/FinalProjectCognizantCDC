@@ -17,8 +17,8 @@
 			<class name = "testCases.TS_04_DisplayBookShelvesDetails"/>
 			<class name = "testCases.TS_05_GetListOfSubMenuItems"/>
 			<class name = "testCases.TS_06_GiftCardCustomization"/>
-			<class name = "testCases.TS_07_RecipientAndSenderDetails"/>
-			<!--<class name="testCases.TS_07_ResipientAndSenderDetailsDDT"/>-->
+			<!--<class name = "testCases.TS_07_RecipientAndSenderDetails"/>-->
+			<class name="testCases.TS_07_ResipientAndSenderDetailsDDT"/>
 		</classes>
 	</test>
 	<test name = "EdgeTest">
